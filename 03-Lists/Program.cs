@@ -15,6 +15,10 @@ namespace _03_Lists
             numeros.Add(3);
             numeros.Add(5);
 
+            string s = Environment.CurrentDirectory;
+            s = AppDomain.CurrentDomain.BaseDirectory;
+
+
             int sumatoria = 0;
             for (int indice = 0; indice < numeros.Count; indice++)
             {
